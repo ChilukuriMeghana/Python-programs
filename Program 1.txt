@@ -1,0 +1,18 @@
+1) Program to find addition of two numbers
+----------------------------------------------------
+a=int(input('enter a value'))
+b=int(input('enter b value'))
+c=a+b
+print('Addition is', (c))
+print(type(c))
+-----------------------------------------------------
+Output:
+---------
+enter a value25
+enter b value15
+Addition is
+40
+<class 'int'>
+************************************************
+
+

@@ -1,0 +1,14 @@
+2) Program to find subtraction of two numbers
+-----------------------------------------------------------
+
+x=int(input('enter a number'))
+y=int(input('enter another number'))
+z=x-y
+print('Subtraction is', (z))
+-----------------------------------------------------------
+Output:
+---------
+enter a number 45
+enter another number 55
+Subtraction is -10
+*****************************************************
