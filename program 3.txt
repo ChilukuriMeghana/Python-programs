@@ -1,0 +1,16 @@
+3)  program to Calculate EMI
+---------------------------------------------------------------------------------------
+p=int(input('enter principal amount
+t=int(input('enter time period'))
+r=int(input('enter rate of interest'))
+s=(p*t*r)/100
+EMI=(p+s)/t*12
+print('EMI to be paid is ',EMI)
+--------------------------------------------------------------------------------------------
+Output:
+---------
+enter principal amount 300000
+enter time period 5
+enter rate of interest 25
+EMI to be paid is  1620000.0
+**********************************************************************************

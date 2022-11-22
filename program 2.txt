@@ -1,0 +1,30 @@
+2) program to read students data and display it (sno, name, gender, group, address, phno)
+-----------------------------------------------------------------------------------------------------------------------
+sno=int(input('enter s.no'))
+name=input('enter your name')
+gen=input('enter gender')
+group=input('enter group')
+add=input('enter address')
+ph=int(input('enter phone number'))
+print('s.no is ',sno)
+print('name is ',name)
+print('gender is ',gen)
+print('group is ',group)
+print('address is ',add)
+print('phone number is ',ph)
+--------------------------------------------------------------------------------------------------------------------
+Output:
+----------
+enter s.no 55
+enter your name meghana 
+enter gender F    
+enter group MSCS
+enter address Rajahmundry
+enter phone number 5462
+s.no is  55
+name is   meghana
+gender is   F
+group is   MSCS
+address is   Rajahmundry
+phone number is  5462
+********************************************************************************************************
