@@ -1,0 +1,15 @@
+2) Program to print whether given numbers are equal or not
+-----------------------------------------------------------------------------
+a=int(input('enter a value'))
+b=int(input('enter b value'))
+if(a==b):
+    print('a and b are equal')
+else:
+    print('a and b are not equal')
+------------------------------------------------------------------------------
+Output:
+---------
+enter a value 555
+enter b value 124
+a and b are not equal
+***********************************************************************
