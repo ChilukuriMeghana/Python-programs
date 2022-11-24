@@ -1,0 +1,32 @@
+3) program to print whether student is passed or failed
+---------------------------------------------------------------------
+a=int(input('enter your number'))
+b=input('enter name')
+c=input('enter group')
+d=int(input('enter marks in maths'))
+e=int(input('enter marks in stat'))
+f=int(input('enter marks in cs'))
+if d>=35 and e>=35 and f>=35:
+    print('number',a)
+    print('name',b)
+    print('group',c)
+    print('you are passed')
+else:
+    print('number',a)
+    print('name',b)
+    print('group',c)
+    print('you are failed')
+---------------------------------------------------------------------------
+Output:
+--------
+enter your number 07
+enter name  meghana
+enter group mscs
+enter marks in maths  50
+enter marks in stat 44
+enter marks in cs 51
+number 7
+name   meghana
+group  mscs
+you are passed
+***********************************************************************
