@@ -1,0 +1,22 @@
+2) Program to perform relational operations
+--------------------------------------------------------
+x=int(input('enter x value'))
+y=int(input('enter y value'))
+print(x>y)
+print(x<y)
+print(x>=y)
+print(x<=y)
+print(x==y)
+print(x!=y)
+--------------------------------------------------------
+Output:
+---------
+enter x value  45
+enter y value 65
+False
+True
+False
+True
+False
+True
+**************************************************
