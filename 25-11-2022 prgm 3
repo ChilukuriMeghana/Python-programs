@@ -1,0 +1,13 @@
+3) program to calculate sum of all even elements in the list
+--------------------------------------------------------------------------
+list=[15,8,4,12,14]
+sum=0
+for i in list:
+    if i%2==0:
+        sum = sum+i
+print('sum of even numbers in the list =',sum)
+---------------------------------------------------------
+Output:
+--------
+sum of even numbers in the list = 38
+***************************************************
