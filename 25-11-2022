@@ -1,0 +1,17 @@
+1) Program to check if the given element is available in the list or not
+----------------------------------------------------------------------------------------
+list={10,15,22,7,8,9}
+print('enter a element')
+x=int(input())
+if x in list:
+    print('element is found in list')
+else:
+    print('element is not found in the list')
+--------------------------------------------------------------------------------------
+Output:
+---------
+enter a element
+9
+element is found in list
+****************************************************************************
+
