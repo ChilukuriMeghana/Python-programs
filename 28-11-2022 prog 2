@@ -1,0 +1,17 @@
+2) Program to do ATM balance credit process
+--------------------------------------------------------------
+print('enter balance in your account')
+x=int(input())
+print('enter the amount to be credited to your account')
+y=int(input())
+print('amount credited=',y)
+print('total amount in your account=',x+y)
+--------------------------------------------------------------------------
+Output:
+enter balance in your account
+25000 
+enter the amount to be credited to your account
+5000
+amount credited= 5000
+total amount in your account= 30000
+******************************************************************
