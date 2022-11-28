@@ -1,0 +1,18 @@
+3) Program to check given pin is valid or not
+-----------------------------------------------------------
+pin=8547
+print('enter your pin')
+x=int(input())
+if(pin==x):
+    print('Continue the transaction')
+else:
+    print('Incorrect pin number. Please try again')
+----------------------------------------------------------------
+Output:
+enter your pin
+8547
+Continue the transaction
+enter your pin
+5468
+Incorrect pin number. Please try again
+*********************************************************
