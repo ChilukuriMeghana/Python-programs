@@ -1,0 +1,15 @@
+1) Program to print whether given number is less or greater than 100
+-----------------------------------------------------------------------------------------
+n=int(input('enter a number'))
+if n<100:
+    print('given number is less than 100')
+else:
+    print('given number is greater than 100')
+----------------------------------------------------------
+Output:
+--------
+enter a number 45
+given number is less than 100
+enter a number 201
+given number is greater than 100
+***************************************************************
