@@ -1,0 +1,36 @@
+1) Program to calculate tax
+------------------------------------
+x=int(input('enter employee id'))
+y=int(input('enter your designation'))
+z=int(input('enter basic salary'))
+da=int(input('enter daily allowance'))
+ta=int(input('enter travelling allowance'))
+hr=int(input('enter HRA'))
+netsalary=z+da+ta+hr
+print(netsalary)
+if netsalary> 100000:
+    tax=netsalary*(10/100)
+    print(tax)
+if netsalary>50000:
+    tax=netsalary*(7/100)
+    print(tax)
+if netsalary>40000:
+    tax=netsalary*(4/100)
+    print(tax)
+if netsalary>20000:
+    tax=netsalary*(2/100)
+    print(tax)
+else:
+    tax=0 
+    print(tax)
+------------------------------------------------------------
+Output:
+enter employee id123456
+enter your designation1254
+enter basic salary25000 
+enter daily allowance5000
+enter travelling allowance4000
+enter HRA2000
+36000
+720.0
+******************************************************
