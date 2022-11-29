@@ -1,0 +1,28 @@
+3) program to print biggest of 4 numbers
+------------------------------------------------------
+x=int(input('enter 1st number'))
+y=int(input('enter 2nd number'))
+z=int(input('enter 3rd number'))
+t=int(input('enter 4th number'))
+if x>y:
+    if x>z:
+        if x>t:
+            print('x is big')
+if y>x:
+    if y>z:
+       if y>t:
+            print('y is big')
+if z>x:
+    if z>y:
+        if z>t:
+            print('z is big')
+else:
+    print('t is big')
+------------------------------------------------------
+Output:
+enter 1st number 5
+enter 2nd number 4
+enter 3rd number 8
+enter 4th number 7
+z is big
+***********************************************
