@@ -1,0 +1,25 @@
+2) program to show whether student is passed or failed
+------------------------------------------------------------------------
+x=int(input('enter student id'))
+y=(input('enter name'))
+z=(input('enter group'))
+d=int(input('enter marks in s1'))
+t=int(input('enter marks in s2'))
+h=int(input('enter marks in s3'))
+if d>=35:
+    if t>=35:
+        if h>=35:
+            print('pass')
+else:
+    print('fail')
+---------------------------------------------------
+Output:
+enter student id 5
+enter name  meghana
+enter group mscs
+enter marks in s1 15
+enter marks in s2 35
+enter marks in s3 14
+fail
+
+***********************************************
