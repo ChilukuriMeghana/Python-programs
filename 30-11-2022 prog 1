@@ -1,0 +1,41 @@
+1) Program to prepare a bill
+-------------------------------------------------------------------------------
+wheat=150
+salt=200
+oil=250
+maida=145
+chocolate=20 
+phno=input('enter your phone number')
+name=input('enter your name')
+add=input('enter your address')
+wh=int(input('how many packets of wheat do you want'))
+sa=int(input('how many salt packets do you want'))
+oi=int(input('how many packets of oil do you want'))
+ma=int(input('how many packets of maida do you want'))
+ch=int(input('how many chocolates do you want'))
+bill=(wheat*wh)+(salt*sa)+(oil*oi)+(maida*ma)+(chocolate*ch)
+if bill>3000:
+    tax=bill* 3/100
+elif bill>2000:
+    tax=bill* 7/100
+elif bill>500:
+    tax=bill* 15/100
+else:
+    tax=100
+tax=tax+bill
+print('bill=',bill)
+print('tax=',tax)
+print('phone no=',phno)
+--------------------------------------------------------------------------------------
+Output:
+enter your name meghana
+enter your address kkd
+how many packets of wheat do you want 1
+how many salt packets do you want 0
+how many packets of oil do you want1
+how many packets of maida do you want 0
+how many chocolates do you want 1
+bill= 420
+tax= 520
+phone no=   9857648554
+***************************************************************************
