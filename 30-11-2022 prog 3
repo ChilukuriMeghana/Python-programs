@@ -1,0 +1,17 @@
+3) program to prepare electricity bill
+---------------------------------------------------------------------------
+name=input('enter your name')
+cid=int(input('enter your ID'))
+un=int(input('enter total units which you consumed in a month'))
+unit=5
+bill=un*unit 
+print('your name:',name)
+print('your ID:',cid)
+print('total bill=',bill)
+----------------------------------------------------------------------------------
+Output:
+enter total units which you consumed in a month 400
+your name:  meghana
+your ID: 45687
+total bill= 2000
+**********************************************************************
