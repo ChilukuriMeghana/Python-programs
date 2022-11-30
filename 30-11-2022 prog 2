@@ -1,0 +1,58 @@
+2) Program to print discount in previous program
+---------------------------------------------------------------
+wheat=150
+salt=200
+oil=250
+maida=145
+chocolate=20 
+phno=input('enter your phone number')
+name=input('enter your name')
+add=input('enter your address')
+wh=int(input('how many packets of wheat do you want'))
+sa=int(input('how many salt packets do you want'))
+oi=int(input('how many packets of oil do you want'))
+ma=int(input('how many packets of maida do you want'))
+ch=int(input('how many chocolates do you want'))
+
+bill=(wheat*wh)+(salt*sa)+(oil*oi)+(maida*ma)+(chocolate*ch)
+if bill>3000:
+    tax=bill* 3/100
+elif bill>2000:
+    tax=bill* 7/100
+elif bill>500:
+    tax=bill* 15/100
+else:
+    tax=100
+tax=tax+bill
+'''
+print('bill=',bill)
+print('tax=',tax)
+print('phone no=',phno)
+'''
+s=print('enter your coupon code in capitals')
+cou=input('Enter coupon code if applicable in CAPS')
+if cou == "DIWALI":
+    if bill>=5000:
+        Dis = bill*10/100
+elif bill>=3000:
+    Dis = bill*6/100
+elif bill>=1000:
+    Dis = bill*4/1000
+else: 
+    Dis = 0
+if cou == "CHRISTMAS":
+    if bill>=3000:
+        Dis = bill*20/100
+elif bill>=2000:    
+    Dis = bill*10/100
+elif bill>=1000:
+    Dis = bill*5/1000
+else: 
+    Dis = 0
+print('Name=',name)
+print('C No=',phno)
+print('Address =',add)
+print('tax=',tax)
+print('Discount=',Dis)
+print('Bill=',bill)
+------------------------------------------------------------------------
