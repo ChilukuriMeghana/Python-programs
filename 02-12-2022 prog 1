@@ -1,0 +1,17 @@
+1) Program to print biggest of two numbers using functions
+----------------------------------------------------------------------------
+def max(a,b):
+    if a>b:
+        return a 
+    else:
+        return b
+a=int(input('enter a value'))
+b=int(input('enter b value'))
+c=max(a,b)
+print('biggest number is:',c)
+-------------------------------------
+Output:
+enter a value 12
+enter b value 569
+biggest number is: 569
+**********************************
