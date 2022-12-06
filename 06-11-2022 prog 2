@@ -1,0 +1,19 @@
+2) program to print given number is palindrome or not
+----------------------------------------------------------------------
+n=int(input('enter n value'))
+temp=n
+sum=0
+while(n!=0):
+    r=n%10
+    sum=(sum*10)+r
+    n=n//10
+print(sum)
+if (temp==sum):
+    print(temp,'is a palindrome')
+else:
+    print(temp,'is not palindrome')
+-------------------------------------------
+Output:
+enter n value 111
+111 is a palindrome
+***************************************
