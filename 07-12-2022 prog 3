@@ -1,0 +1,21 @@
+3) program to print given number is Happy number or not.
+--------------------------------------------------------------------------
+def happy(n):
+    sum=0
+    while(n!=0):
+        r=n%10
+        sum=sum+(r*r)
+        n=n//10
+    return sum
+n=int(input('enter a number'))
+while(n>9):
+    n=happy(n)
+if n==1:
+    print('Given number is happy')
+else:
+    print('Given number is not happy')
+-------------------------------------------------
+Output:
+enter a number 10
+Given number is happy
+********************************************
