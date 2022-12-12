@@ -1,0 +1,18 @@
+2) program to read n numbers and add them into list and find elements at indexes 0,2,4
+--------------------------------------------------------------------------------------------------------------------
+
+n=int(input('enter no.of elements'))
+l=list(map(int,input().split()))
+print('List =',l)
+print('value at index 0 =',l[0])
+print('value at index 2 =',l[2])
+print('value at index 4 =',l[4])
+------------------------------------------------------
+Output:
+enter no.of elements 5
+10 87 20 30 55 
+List = [10, 87, 20, 30, 55]
+value at index 0 = 10
+value at index 2 = 20
+value at index 4 = 55
+**********************************************
