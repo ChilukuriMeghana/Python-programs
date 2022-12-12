@@ -1,0 +1,15 @@
+1)  Program to read n numbers and add them into list and find maximum,minimum elements
+-----------------------------------------------------------------------------------------------------------------------
+n=int(input('enter no.of elements'))
+l=list(map(int,input().split()))
+print('List=',l)
+print('maximum element is=',max(l))
+print('minimum element is=',min(l))
+--------------------------------------------------
+Output:
+enter no.of elements  5
+12 45 65 78 98 
+List = [12, 45, 65, 78, 98]
+maximum element is= 98
+minimum element is= 12
+***********************************************
