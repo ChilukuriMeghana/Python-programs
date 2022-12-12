@@ -1,0 +1,23 @@
+3)  Program to create a window application
+-----------------------------------------------------------
+
+from tkinter import*
+st=Tk()
+st.title("Student Application form")
+Label(st,text="Enter student ID:").grid(row=0,column=0)
+Label(st,text="Enter student name:").grid(row=1,column=0)
+Label(st,text="Enter Father name:").grid(row=2,column=0)
+Label(st,text="Enter group:").grid(row=3,column=0)
+Label(st,text="Enter Phone number:").grid(row=4,column=0)
+Label(st,text="Enter Email ID:").grid(row=5,column=0)
+Label(st,text="Enter Address:").grid(row=6,column=0)
+Entry(st).grid(row=0,column=1)
+Entry(st).grid(row=1,column=1)
+Entry(st).grid(row=2,column=1)
+Entry(st).grid(row=3,column=1)
+Entry(st).grid(row=4,column=1)
+Entry(st).grid(row=5,column=1)
+Entry(st).grid(row=6,column=1)
+Button(st,text="Submit").grid(row=7)
+Button(st,text="Cancel").grid(row=7,column=1)
+-----------------------------------------------------------------------------------------
