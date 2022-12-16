@@ -1,0 +1,17 @@
+1)  program to read a string and perform the following operations
+------------------------------------------------------------------------------------
+
+str=input('enter a string')
+length=len(str)
+print('Length of string =',length)
+print('String in uppercase:',str.upper())
+print('String in lower case:',str.lower())
+print('String in swapcase',str.swapcase())
+--------------------------------------------------------------------------------------
+Output:
+enter a string HELLo usEr  WelcOMe  to python
+Length of string = 31
+String in uppercase:  HELLO USER  WELCOME  TO PYTHON
+String in lower case:  hello user  welcome  to python
+String in swapcase  hellO USeR  wELComE  TO PYTHON
+**********************************************************************************
