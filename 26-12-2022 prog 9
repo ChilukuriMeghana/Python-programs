@@ -1,0 +1,20 @@
+9) program to print sum of n febnocci  series
+---------------------------------------------------------
+n=int(input())
+a=-1
+b=1 
+sum=0
+for i in range(1,n+1):
+    c=a+b 
+    print(c,end=' ')
+    sum=sum+c 
+    a=b 
+    b=c 
+print()
+print('sum=',sum)
+------------------------------------------
+Output:
+10
+0 1 1 2 3 5 8 13 21 34 
+sum= 88
+***************************************
