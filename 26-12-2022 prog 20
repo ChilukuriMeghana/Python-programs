@@ -1,0 +1,33 @@
+20) Maximum prime number and minimum prime number from the given list.
+------------------------------------------------------------------------------------------------------------
+import math as mt
+def Prime(arr, n):
+    max_val = max(arr)
+    prime = [True for i in range(max_val + 1)]
+    prime[0] = False
+    prime[1] = False
+    for p in range(2, mt.ceil(mt.sqrt(max_val))):
+        if (prime[p] == True):
+            for i in range(2 * p, max_val + 1, p):
+                    prime[i] = False
+    minimum = 10**9
+    maximum = -10**9
+    for i in range(n):
+        if (prime[arr[i]] == True):
+            minimum = min(minimum, arr[i])
+            maximum = max(maximum, arr[i])
+    print("Minimum : ", minimum )
+    print("Maximum : ", maximum )
+n=int(input())
+l=[]
+for i in range(0,n,1):
+    n2=int(input())
+    l.append(n2)
+
+n1 = len(l)
+ 
+Prime(l, n1)   
+**********************************************************************************
+Output:
+Minimum: 2
+Maximum: 5
