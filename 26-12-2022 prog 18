@@ -1,0 +1,26 @@
+18) program to arrange elements in sequential order.
+---------------------------------------------------------------------
+n=int(input())
+l=[]
+for i in range(0,n,1):
+    x=int(input())
+    l.append(x)
+for i in range(0,n):
+    k=i+1
+    for j in range(k,n):
+        if(l[i]>l[j]):
+            t=l[i]
+            l[i]=l[j]
+            l[j]=t
+print(l)
+-----------------------------------------------
+Output:
+6
+7
+8
+9
+2
+5
+6
+[2, 5, 6, 7, 8, 9]
+***********************************************
