@@ -1,0 +1,28 @@
+13) program to print given list is Unique or Duplicate
+--------------------------------------------------------------------
+n=int(input())
+l=[]
+for i in range(0,n,1):
+    n=int(input())
+    l.append(n)
+for i in range(0,n):
+    k=i+1
+    for j in range(k,n):
+        if(l[i]==l[j]):
+            flag=1 
+        else:
+            flag=0
+if flag==1:
+    print('duplicate')
+else:
+    print('unique')
+-----------------------------------------------
+Output:
+5
+1
+2
+3
+4
+5
+unique
+*******************************************
