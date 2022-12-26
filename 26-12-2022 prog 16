@@ -1,0 +1,21 @@
+16)  program to print difference between maximum and minimum
+ number from the given list.
+--------------------------------------------------------------------------------------
+n=int(input('enter size'))
+l=[]
+for i in range(0,n,1):
+    x=int(input())
+    l.append(x)
+max=max(l)
+min=min(l)
+print(max-min)
+--------------------------------------
+Output:
+enter size 5
+1
+5
+8
+9
+4
+8
+***********************************
