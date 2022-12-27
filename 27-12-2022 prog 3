@@ -1,0 +1,29 @@
+3) program to implement binary search
+------------------------------------------------------
+n=int(input('enter size'))
+l=list(map(int,input().split()))
+x=int(input('enter search element'))
+low=0
+high=n-1
+flag=0
+mid=(low+high)//2
+while(high>=low):
+    if x>l[mid]:
+        low=mid+1 
+    elif x<l[mid]:
+        high=mid-1
+    else:
+        flag=1 
+        break 
+    mid=(low+high)//2 
+if flag==1:
+    print('element found at index',mid) 
+else:
+    print('element not found')
+---------------------------------------------------------------------
+Output:
+enter size 5
+10 12 45 56 69
+enter search element 45
+element found at index 2
+*****************************************************************
