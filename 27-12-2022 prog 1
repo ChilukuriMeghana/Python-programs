@@ -1,0 +1,21 @@
+1)  program to find the element from group of numbers and print whether element is found or not.
+-----------------------------------------------------------------------------------------------------------------------------
+n=int(input('enter size'))
+l=list(map(int,input().split()))
+x=int(input('enter element to search'))
+flag=0
+for i in range(0,n):
+    if l[i]==x:
+        flag=0
+        break 
+if flag==0:
+    print('element is found at index',i)
+else:
+    print('element is not found')
+----------------------------------------------------------------
+Output:
+enter size  5
+12 15 18 46 13
+enter element to search 46
+element is found at index 3
+***********************************************************
