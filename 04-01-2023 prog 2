@@ -1,0 +1,43 @@
+2) program to print sum of all row values of the matrix is equal to 2.
+-----------------------------------------------------------------------------------------
+n=int(input())
+m=[]
+l=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    m.append(l)
+c=0
+for i in range(0,n):
+    s=0
+    for j in range(0,n):
+        s=s+m[i][j]
+    if s==2:
+        c=c+1 
+if c==3:
+    print('coder target matrix')
+else:
+     print('Not coder target matrix')
+-------------------------------------------------------
+Output:
+3
+1
+0
+1
+1
+1
+0
+2
+0
+0
+coder target matrix
+**************************************************
+
+    
+
+        
+
+            
+           
