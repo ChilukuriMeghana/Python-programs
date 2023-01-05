@@ -1,0 +1,28 @@
+2) program to remove even numbers from the given list or tuple
+------------------------------------------------------------------------------------
+n=int(input())
+l=[]
+t=()
+m=[]
+for i in range(0,n):
+    x=int(input())
+    l.append(x)
+t=tuple(l)
+for i in range(0,n):
+    if t[i]%2!=0:
+        m.append(t[i])
+print('After removing even numbers:')
+for i in m:
+    print(i)
+---------------------------------------------------------------
+Output:
+5
+1
+2
+4
+8
+7
+After removing even numbers:
+1
+7
+***********************************************************
