@@ -1,0 +1,22 @@
+3)  program to check given email id and phno are valid or not.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+n=input('Enter Email Id')
+k=input('Enter phone number')
+c=0
+flag=0
+f=int(k[0])
+for i in k:
+    if i.isdigit():
+        c=c+1
+if c==10:
+    flag=1
+if n.endswith("@gmail.com") or n.endswith("@yahoo.com") or n.endswith("@adc.aditya.ac.in") and f>5 and flag==1:
+    print("Registration successfull")
+else:
+    print("Check your details")
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Output:
+Enter Email Idclsmeghana@yahoo.com
+Enter phone number987654321
+Registration successfull
+********************************************************************************************************************************************
