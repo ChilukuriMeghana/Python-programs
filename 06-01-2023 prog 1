@@ -1,0 +1,17 @@
+1) program to remove duplicates from the group of elements
+------------------------------------------------------------------------------
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+for i in l:
+    if i not in m:
+        m.append(i)
+print('After removing duplicate elements:')
+print(m)
+-----------------------------------------------------------------
+Output:
+6
+4 5 8 8 5 7
+After removing duplicate elements:
+[4, 5, 8, 7]
+************************************************************
