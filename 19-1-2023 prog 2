@@ -1,0 +1,13 @@
+2) program to print the following series using with the given string
+        aditya
+        adity
+        adit
+        adi
+        ad
+        a
+-------------------------------------------------------------------------------------
+s=input()
+n=len(s)
+for i in range(n,0,-1):
+    print(s[i:1])
+   -------------------------------------
