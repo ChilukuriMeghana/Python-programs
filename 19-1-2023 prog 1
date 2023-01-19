@@ -1,0 +1,16 @@
+1) program to print the following frequency
+---------------------------------------------------------
+s=input()
+n=len(s)
+k=int(input())
+p=''
+for i in range(0,n):
+    for j in range(0,k):
+        p=p+s[i]
+print(p)
+-----------------------------------------------
+Output:
+aditya
+2
+aaddiittyyaa
+**********************************************
