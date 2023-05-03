@@ -1,0 +1,21 @@
+2)  program to find most repeated character and freequency from the paragraph
+---------------------------------------------------------------------------------
+par=input()
+d={}
+for i in par:
+    if i not in d:
+        d[i]=1 
+    else:
+        d[i]=d[i]+1 
+m=list(d.values())
+r=max(m)
+for i in d:
+    if d[i]==r:
+        print('character =',i,'and','frequency =',d[i])
+---------------------------------------------------------------------
+Input:
+this is aditya degree college
+----------------------------------------------------------------------
+Output:
+character = e and frequency = 5
+***********************************************************************
