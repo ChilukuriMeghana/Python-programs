@@ -1,0 +1,13 @@
+3)  program to factorial of the given number
+-----------------------------------------------
+n=int(input('Enter a number'))
+f=1
+while(n!=0):
+    f=f*n 
+    n=n-1
+print('Factorial=',f)
+-----------------------------------------
+Output:
+Enter a number 5
+Factorial= 120
+******************************************
